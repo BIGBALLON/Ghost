@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="对话框：主对话框">
+      <UniqueIdentifier>{622027f0-8dd5-442c-9804-b0d5aa21f299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyStatic">
+      <UniqueIdentifier>{bd0e63cf-fc63-4b9b-acc7-0610e53cac69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyText">
+      <UniqueIdentifier>{80cf93a2-c3be-4ac3-ad1f-e4f619d3680a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostManDlg.h">
+      <Filter>对话框：主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostMan.h">
+      <Filter>对话框：主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="SetStartStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="SetEndStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="MyText.h">
+      <Filter>MyText</Filter>
+    </ClInclude>
+    <ClInclude Include="MinStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="BFSStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="DFSStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="IDAStarStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="ACOStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="InitStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="StepStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="STStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStatic.h">
+      <Filter>MyStatic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostMan.cpp">
+      <Filter>对话框：主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostManDlg.cpp">
+      <Filter>对话框：主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="SetStartStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="SetEndStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="MyText.cpp">
+      <Filter>MyText</Filter>
+    </ClCompile>
+    <ClCompile Include="MinStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="CloseStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="BFSStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="DFSStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="IDAStarStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="ACOStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="InitStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="ExecStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="StepStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="STStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStatic.cpp">
+      <Filter>MyStatic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GhostMan.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Main.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\png1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btn_set_end_normal.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btn_exe_step_by_step_highlight.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btn_exe_step_by_step_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btn_exe_step_by_step_pushed.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btn_set_end_highlight.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btn_set_end_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btn_set_end_pushed.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btn_set_start_highlight.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btn_set_start_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btn_set_start_pushed.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\map_introduction.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\header.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bg_global.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bg_global_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\aco_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\aco_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\astar_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\astar_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bfs_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bfs_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\close_down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\close_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\close_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dfs_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dfs_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dynamic_down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dynamic_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dynamic_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\end_down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\end_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\end_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\exec_down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\exec_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\exec_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\idastar_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\idastar_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\init_down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\init_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\init_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\logo.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\max_down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\max_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\max_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\min_down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\min_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\min_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\start_down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\start_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\start_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\static_down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\static_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\static_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\step_down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\step_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\step_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\logo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\logo_main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\color_01.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\color_02.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\color_03.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\color_04.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\color_05.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\color_06.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\color_07.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\color_08.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\color_09.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kungfu-panda_01.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kungfu-panda_02.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kungfu-panda_03.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kungfu-panda_04.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kungfu-panda_05.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kungfu-panda_06.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kungfu-panda_07.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kungfu-panda_08.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kungfu-panda_09.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sa_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sa_normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\normal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GhostMan.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
