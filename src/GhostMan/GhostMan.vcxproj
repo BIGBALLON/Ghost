@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F6814BB0-8568-4616-BE8B-561C901E285C}</ProjectGuid>
+    <RootNamespace>GhostMan</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ACOStatic.h" />
+    <ClInclude Include="AStarStatic.h" />
+    <ClInclude Include="BFSStatic.h" />
+    <ClInclude Include="CloseStatic.h" />
+    <ClInclude Include="DFSStatic.h" />
+    <ClInclude Include="DynamicStatic.h" />
+    <ClInclude Include="ExecStatic.h" />
+    <ClInclude Include="GhostMan.h" />
+    <ClInclude Include="GhostManDlg.h" />
+    <ClInclude Include="IDAStarStatic.h" />
+    <ClInclude Include="InitStatic.h" />
+    <ClInclude Include="MinStatic.h" />
+    <ClInclude Include="MyStatic.h" />
+    <ClInclude Include="MyText.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SetEndStatic.h" />
+    <ClInclude Include="SetStartStatic.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StepStatic.h" />
+    <ClInclude Include="STStatic.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ACOStatic.cpp" />
+    <ClCompile Include="AStarStatic.cpp" />
+    <ClCompile Include="BFSStatic.cpp" />
+    <ClCompile Include="CloseStatic.cpp" />
+    <ClCompile Include="DFSStatic.cpp" />
+    <ClCompile Include="DynamicStatic.cpp" />
+    <ClCompile Include="ExecStatic.cpp" />
+    <ClCompile Include="GhostMan.cpp" />
+    <ClCompile Include="GhostManDlg.cpp" />
+    <ClCompile Include="IDAStarStatic.cpp" />
+    <ClCompile Include="InitStatic.cpp" />
+    <ClCompile Include="MinStatic.cpp" />
+    <ClCompile Include="MyStatic.cpp" />
+    <ClCompile Include="MyText.cpp" />
+    <ClCompile Include="SetEndStatic.cpp" />
+    <ClCompile Include="SetStartStatic.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StepStatic.cpp" />
+    <ClCompile Include="STStatic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GhostMan.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\aco_hover.bmp" />
+    <Image Include="res\aco_normal.bmp" />
+    <Image Include="res\astar_hover.bmp" />
+    <Image Include="res\astar_normal.bmp" />
+    <Image Include="res\bfs_hover.bmp" />
+    <Image Include="res\bfs_normal.bmp" />
+    <Image Include="res\bg_global.bmp" />
+    <Image Include="res\bg_global_1.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\btn_exe_step_by_step_highlight.bmp" />
+    <Image Include="res\btn_exe_step_by_step_normal.bmp" />
+    <Image Include="res\btn_exe_step_by_step_pushed.bmp" />
+    <Image Include="res\btn_set_end_highlight.bmp" />
+    <Image Include="res\btn_set_end_normal.bmp" />
+    <Image Include="res\btn_set_end_normal.png" />
+    <Image Include="res\btn_set_end_pushed.bmp" />
+    <Image Include="res\btn_set_start_highlight.bmp" />
+    <Image Include="res\btn_set_start_normal.bmp" />
+    <Image Include="res\btn_set_start_pushed.bmp" />
+    <Image Include="res\close_down.bmp" />
+    <Image Include="res\close_hover.bmp" />
+    <Image Include="res\close_normal.bmp" />
+    <Image Include="res\color_01.bmp" />
+    <Image Include="res\color_02.bmp" />
+    <Image Include="res\color_03.bmp" />
+    <Image Include="res\color_04.bmp" />
+    <Image Include="res\color_05.bmp" />
+    <Image Include="res\color_06.bmp" />
+    <Image Include="res\color_07.bmp" />
+    <Image Include="res\color_08.bmp" />
+    <Image Include="res\color_09.bmp" />
+    <Image Include="res\dfs_hover.bmp" />
+    <Image Include="res\dfs_normal.bmp" />
+    <Image Include="res\dynamic_down.bmp" />
+    <Image Include="res\dynamic_hover.bmp" />
+    <Image Include="res\dynamic_normal.bmp" />
+    <Image Include="res\end_down.bmp" />
+    <Image Include="res\end_hover.bmp" />
+    <Image Include="res\end_normal.bmp" />
+    <Image Include="res\exec_down.bmp" />
+    <Image Include="res\exec_hover.bmp" />
+    <Image Include="res\exec_normal.bmp" />
+    <Image Include="res\header.bmp" />
+    <Image Include="res\hover.bmp" />
+    <Image Include="res\idastar_hover.bmp" />
+    <Image Include="res\idastar_normal.bmp" />
+    <Image Include="res\init_down.bmp" />
+    <Image Include="res\init_hover.bmp" />
+    <Image Include="res\init_normal.bmp" />
+    <Image Include="res\kungfu-panda_01.bmp" />
+    <Image Include="res\kungfu-panda_02.bmp" />
+    <Image Include="res\kungfu-panda_03.bmp" />
+    <Image Include="res\kungfu-panda_04.bmp" />
+    <Image Include="res\kungfu-panda_05.bmp" />
+    <Image Include="res\kungfu-panda_06.bmp" />
+    <Image Include="res\kungfu-panda_07.bmp" />
+    <Image Include="res\kungfu-panda_08.bmp" />
+    <Image Include="res\kungfu-panda_09.bmp" />
+    <Image Include="res\logo.bmp" />
+    <Image Include="res\logo.ico" />
+    <Image Include="res\logo_main.bmp" />
+    <Image Include="res\Main.ico" />
+    <Image Include="res\map_introduction.bmp" />
+    <Image Include="res\max_down.bmp" />
+    <Image Include="res\max_hover.bmp" />
+    <Image Include="res\max_normal.bmp" />
+    <Image Include="res\min_down.bmp" />
+    <Image Include="res\min_hover.bmp" />
+    <Image Include="res\min_normal.bmp" />
+    <Image Include="res\normal.bmp" />
+    <Image Include="res\png1.png" />
+    <Image Include="res\sa_hover.bmp" />
+    <Image Include="res\sa_normal.bmp" />
+    <Image Include="res\start_down.bmp" />
+    <Image Include="res\start_hover.bmp" />
+    <Image Include="res\start_normal.bmp" />
+    <Image Include="res\static_down.bmp" />
+    <Image Include="res\static_hover.bmp" />
+    <Image Include="res\static_normal.bmp" />
+    <Image Include="res\step_down.bmp" />
+    <Image Include="res\step_hover.bmp" />
+    <Image Include="res\step_normal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GhostMan.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="GhostMan.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
